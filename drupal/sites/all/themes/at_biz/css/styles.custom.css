@@ -1,0 +1,32 @@
+/**
+ * AT Biz Styles
+ * NOTICE: This is a commercial Drupal theme. Elements of this theme including this field
+ * are licensed under a standard commercial license which does not permit redistribution. 
+ */
+
+/** 
+ * Use this file to provide overrides to the main styles. This file always loads last
+ * so you can override anything in the other style-sheets.
+ */
+section.breadcrumb,
+#secondary-content-wrapper .block > .block-inner,
+#breadcrumb-wrapper .block > .block-inner,
+#content-wrapper .block > .block-inner,
+#quadpanel-wrapper .block > .block-inner,
+#tertiary-content-wrapper .block > .block-inner {
+  background: transparent;
+  -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.01);
+  -moz-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.01);
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.01);
+}
+.block-quicktabs .block-inner .block-inner,
+.sidebar .block-quicktabs .block-inner .block-inner,
+#block-system-main .block-inner {
+  background: transparent !important;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+.quicktabs-wrapper .block {
+  margin-bottom: 0;
+}
