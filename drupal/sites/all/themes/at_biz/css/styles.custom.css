@@ -35,7 +35,7 @@ section.breadcrumb,
     padding: 0 !important;
     width: 100% !important;
     height: 120px !important;
-    background-image: url(/sites/default/files/header5.jpg) !important;
+    background-image: url(images/header.jpg) !important;
     background-repeat: no-repeat! important;
     background-position: left top! important;
 }
