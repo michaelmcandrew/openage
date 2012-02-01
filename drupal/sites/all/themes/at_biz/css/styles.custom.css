@@ -30,3 +30,42 @@ section.breadcrumb,
 .quicktabs-wrapper .block {
   margin-bottom: 0;
 }
+#branding {
+    float: left !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 120px !important;
+    background-image: url(/sites/default/files/header5.jpg) !important;
+    background-repeat: no-repeat! important;
+    background-position: left top! important;
+}
+#header-wrapper .container {
+    padding-bottom: 0 !important;
+}
+.nav {
+  background-color: rgb(244,248,249) !important;
+}
+.carousel {
+	width: 100%;
+}
+.jcarousel-container,
+.jcarousel-clip-horizontal {
+	width: 920px;
+	height: 312px;
+	overflow: hidden;
+}
+.jcarousel-item {
+	height: 100%;
+}
+.jcarousel-item .views-field-field-imagej {
+	width: 450px;
+	height: 292px;
+	margin-right: 20px;
+	float: left;
+}
+.jcarousel-item .views-field-body {
+	width: 440px;
+	height: 292px;
+	padding-right: 20px;
+	float: left;
+}
