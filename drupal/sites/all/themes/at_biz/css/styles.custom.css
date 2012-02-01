@@ -33,6 +33,7 @@ section.breadcrumb,
 #branding {
     float: left !important;
     padding: 0 !important;
+	margin: 0 !important;
     width: 100% !important;
     height: 120px !important;
     background-image: url(images/header.jpg) !important;
