@@ -35,7 +35,7 @@ section.breadcrumb,
     padding: 0 !important;
 	margin: 0 !important;
     width: 100% !important;
-    height: 120px !important;
+    height: 140px !important;
     background-image: url(images/header.jpg) !important;
     background-repeat: no-repeat! important;
     background-position: left top! important;
@@ -62,3 +62,50 @@ section.breadcrumb,
 	width: 920px;
 	height: 292px;
 }
+#menu-top-wrapper {
+    background: url("images/top-menu-tile.png") repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #000000;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+
+.nav li a:link, .nav li a:visited {
+    background: none repeat scroll 0 0 #ffffff !important;
+    color: #666666!important;
+}
+
+.nav li a:hover, .nav li a:focus, .nav li a:active, .nav li a.active, .nav li a:visited:hover, .nav li.active-trail a {
+    background: none repeat scroll 0 0 #ffffff !important;
+    color: #315690 !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.region-menu-bar-top .block-menu .menu li a {
+    padding-top: 0pt;
+    padding-right: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 10px;
+    color: #000000 !important;
+}
+
+a, a.active {
+    font-weight: 500;
+}
+
+li a, li a:visited, li a:active, li a:hover {
+    font-weight: 500;
+}
+
+li a, li a:visited, li a:active, li a:hover {
+    font-weight: 500;
+}
+
+#menu-top-wrapper a {
+    font-weight: 400 !important;
+} 
+
+
+
+
